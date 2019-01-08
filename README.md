@@ -8,9 +8,7 @@ This is a demo for how to use them.
 Required tools:
  1. IBM ILOG CPLEX Optimization Studio (https://www.ibm.com/products/ilog-cplex-optimization-studio)
  
-To run the project:
-
- Data Processing:
+To run the project: (Step 1-7: Data Processing, Step 8-14: Run Model)
  1. Put data_processing.cpp and all the data files (xxx.csv) you are using together.
  2. Modify the code piece "data_30_1.dat" on line 64 to a file name you like.
  3. Modify the code piece "deli_grouped_sample_30_1.csv" on line 77 to the name of a data file you like.
@@ -18,8 +16,6 @@ To run the project:
  5. On your terminal, run   g++ -std=c++14 data_processing.cpp
  6. On your terminal, run   ./a.out
  7. Go find the file named in 2.
- 
- Run Model:
  8. Open IBM ILOG CPLEX Optimization Studio
  9. In the file section, build a new OPL Project
  10. In the file section, select Copy the files to the project
